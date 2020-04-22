@@ -65,6 +65,18 @@ public class Gantt extends PApplet
 			
 			text(i + 1, x, y - 20);
 			x += gap;
+
 		}
+
+		text("Research", 100, 150);
+
+		// ui.stroke(153, 0, 0);
+        // ui.fill(153, 0, 0);
+        // ui.rect(x, y, w, h);
+        // ui.rect(x + 140, y, w, h);
+        // ui.rect(x + 280, y, w, h);
+        // ui.rect(x + 430, y, w, h);
+        // ui.noStroke();
+        // ui.noFill();
 	}
 }
