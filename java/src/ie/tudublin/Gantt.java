@@ -68,6 +68,9 @@ public class Gantt extends PApplet
 
 		}
 
+
+		
+
 		text("Research", 100, 100);
 		text("Design", 100, 150);
 		text("Phase1", 100, 200);
@@ -77,14 +80,16 @@ public class Gantt extends PApplet
 		text("Testing", 100, 400);
 		text("Evalution", 100, 450);
 		text("Release", 100, 500);
+		
+		float w  = 50;
+		float h = 20;
+		//stroke(255,0,0);
+		//fill(255,0,0);
+		rect(x, y, w, h);
+		rect(x + 30, y, w, h);
+		
 
-		// ui.stroke(153, 0, 0);
-        // ui.fill(153, 0, 0);
-        // ui.rect(x, y, w, h);
-        // ui.rect(x + 140, y, w, h);
-        // ui.rect(x + 280, y, w, h);
-        // ui.rect(x + 430, y, w, h);
-        // ui.noStroke();
-        // ui.noFill();
+
+		
 	}
 }
