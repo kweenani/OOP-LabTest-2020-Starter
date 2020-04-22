@@ -68,7 +68,11 @@ public class Gantt extends PApplet
 
 		}
 
-		text("Research", 100, 150);
+		text("Research", 100, 100);
+		text("Design", 100, 150);
+		text("Phase1", 100, 200);
+		text("Phase2", 100, 250);
+		text("Phase", 100, 300);
 
 		// ui.stroke(153, 0, 0);
         // ui.fill(153, 0, 0);
